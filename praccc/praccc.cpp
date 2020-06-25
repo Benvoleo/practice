@@ -4,7 +4,7 @@
 #include "Header.h"
 int a = 1, N;
 int main() {
-	printf("Enter the N(number only; and between 1 and 100000000): ");
+	printf("Enter the N(number only; Between 1 and 100000000): ");
 	scanf("%i", &N);
 	if (N > 0 && N <= 100000000){
 		rast(N, a);
